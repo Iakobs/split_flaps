@@ -1,0 +1,26 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Split Flaps"
+config/description="A Control node that displays text like a split flap board."
+config/tags=PackedStringArray("gui", "plugin")
+run/main_scene="res://example/demo.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/split_flaps/plugin.cfg")
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.188249, 0.164537, 0.205165, 1)

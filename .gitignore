@@ -1,0 +1,20 @@
+# Godot 4+ specific ignores
+.godot/
+*.import
+/android/
+exports/
+export_presets.cfg
+
+# vscode
+.vscode/
+
+# krita
+*.kra
+*~
+
+# IntelliJ
+.idea
+
+# other
+*.pdf
+*.bat
